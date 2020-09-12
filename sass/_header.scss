@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    &__left {
+        width: 50%;
+        &--para {
+            font-size: 36px;
+            font-family: "PT Serif", serif;
+            font-weight: 700;
+            line-height: 48px;
+            color: #000;
+        }
+    }
+    &__right {
+        width: 50%;
+        &--para {
+            font-family: Poppins, sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #000;
+        }
+        &--para right__para1 {
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+}

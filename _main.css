@@ -1,0 +1,45 @@
+.main {
+  margin: 50px auto 50px;
+  padding: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.main__container {
+  display: flex;
+  flex-direction: column;
+}
+.main__container--imgs {
+  width: 250px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.main__container--box {
+  display: flex;
+  margin: 20px;
+  justify-content: flex-start;
+}
+.main__container--title {
+  writing-mode: vertical-lr;
+}
+.main__container--title {
+  font-family: "PT Serif", serif;
+  font-weight: lighter;
+  font-size: 12px;
+  line-height: 16px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.main__container--names {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+  margin: 0 20px;
+}
+
+.top__marg {
+  margin-top: 100px;
+}
