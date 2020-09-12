@@ -10,75 +10,70 @@ body {
   margin: 0 auto;
 }
 
-header {
+.header {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
 }
-
-#header-left,
-#header-right {
+.header__left {
   width: 50%;
 }
-
-#p1 {
+.header__left--para {
   font-size: 36px;
   font-family: "PT Serif", serif;
   font-weight: 700;
   line-height: 48px;
   color: #000;
 }
-
-#p2,
-#p3 {
+.header__right {
+  width: 50%;
+}
+.header__right--para {
   font-family: Poppins, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
   color: #000;
 }
-
-#p2 {
+.header__right--para right__para1 {
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.container {
+.main {
   margin: 50px auto 50px;
   padding: 1px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
-.imgs {
+.main__container {
+  display: flex;
+  flex-direction: column;
+}
+.main__container--imgs {
   width: 250px;
   height: auto;
   margin-right: 20px;
   border-radius: 5px;
 }
-
-.main {
-  display: flex;
-  flex-direction: column;
-}
-
-.main_left {
+.main__container--box {
   display: flex;
   margin: 20px;
   justify-content: flex-start;
 }
-
-.title {
+.main__container--title {
   writing-mode: vertical-lr;
 }
-
-.main2,
-.main5 {
-  margin-top: 100px;
+.main__container--title {
+  font-family: "PT Serif", serif;
+  font-weight: lighter;
+  font-size: 12px;
+  line-height: 16px;
+  font-style: normal;
+  text-transform: uppercase;
 }
-
-.names {
+.main__container--names {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -87,21 +82,6 @@ header {
   margin: 0 20px;
 }
 
-.title {
-  font-family: "PT Serif", serif;
-  font-weight: lighter;
-  font-size: 12px;
-  line-height: 16px;
-  font-style: normal;
-  text-transform: uppercase;
-}
-
-@media screen and (max-width: 760px) {
-  #p1 {
-    width: 100%;
-  }
-
-  #header-right {
-    width: 100%;
-  }
+.top__marg {
+  margin-top: 100px;
 }
