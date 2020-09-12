@@ -5,25 +5,27 @@
 }
 .header__left {
   width: 50%;
+  margin-left: 60px;
+  color: #000;
 }
-.header__left--para {
+.header__left--head {
   font-size: 36px;
   font-family: "PT Serif", serif;
   font-weight: 700;
-  line-height: 48px;
-  color: #000;
+  letter-spacing: -0.045em;
 }
 .header__right {
   width: 50%;
-}
-.header__right--para {
   font-family: Poppins, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
   line-height: 27px;
   color: #000;
 }
-.header__right--para right__para1 {
+.header__right--head {
   font-weight: 600;
   text-transform: uppercase;
+}
+.header__right--para {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: justify;
 }
