@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
 }
 
 html,
@@ -17,7 +19,7 @@ body {
 }
 .header__left {
   width: 50%;
-  margin-left: 60px;
+  margin-left: 90px;
   color: #000;
 }
 .header__left--head {
@@ -30,6 +32,7 @@ body {
   width: 50%;
   font-family: Poppins, sans-serif;
   line-height: 27px;
+  margin-right: 90px;
   color: #000;
 }
 .header__right--head {
@@ -55,11 +58,12 @@ body {
   flex-direction: column;
 }
 .main__container--imgs {
-  width: 70%;
+  width: 350px;
   height: auto;
   display: block;
   margin-right: 20px;
   border-radius: 5px;
+  box-shadow: 0px 10px 15px -10px;
 }
 .main__container--box {
   display: flex;
@@ -95,8 +99,61 @@ body {
   margin-top: 100px;
 }
 
-/* Extra small devices (phones, 600px and down) */
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* Medium devices (landscape tablets, 768px and up) */
-/* Large devices (laptops/desktops, 992px and up) */
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+.section-dark {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.toggle {
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+}
+.toggle [type=checkbox]:not(:checked),
+.toggle [type=checkbox]:checked {
+  position: absolute;
+  left: -9999px;
+}
+.toggle [type=checkbox]:not(:checked) + label,
+.toggle [type=checkbox]:checked + label {
+  position: relative;
+  padding-left: 4em;
+  padding-top: 0.25em;
+  cursor: pointer;
+}
+.toggle [type=checkbox]:not(:checked) + label:before,
+.toggle [type=checkbox]:checked + label:before,
+.toggle [type=checkbox]:not(:checked) + label:after,
+.toggle [type=checkbox]:checked + label:after {
+  content: "";
+  position: absolute;
+  height: 1.5em;
+  transition: all 0.5s ease;
+}
+.toggle [type=checkbox]:not(:checked) + label:before,
+.toggle [type=checkbox]:checked + label:before {
+  left: 0;
+  top: 0;
+  width: 3em;
+  border: 2px solid #dddddd;
+  background: #dddddd;
+  border-radius: 1.1em;
+  z-index: -1;
+}
+.toggle [type=checkbox]:not(:checked) + label:after,
+.toggle [type=checkbox]:checked + label:after {
+  left: 0.15em;
+  top: 0.125em;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 1.5em;
+}
+.toggle [type=checkbox]:checked + label:after {
+  left: 1.65em;
+}
+.toggle [type=checkbox]:checked + label:before {
+  background-color: #72da67;
+  border-color: #72da67;
+}

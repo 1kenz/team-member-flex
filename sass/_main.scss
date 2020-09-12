@@ -9,7 +9,7 @@
         display: flex;
         flex-direction: column;
         &--imgs {
-            width: 70%;
+            width: 350px;
             height: auto;
             display: block;
             margin-right: 20px;
@@ -50,4 +50,9 @@
 
 .top__marg {
     margin-top: 100px;
+}
+
+.section-dark {
+    background-color: $secondaryColor !important;
+    color: $primaryColor !important;
 }
