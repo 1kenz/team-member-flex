@@ -1,30 +1,46 @@
 .header {
   display: flex;
-  justify-content: space-between;
-  margin-top: 100px;
 }
 .header__left {
-  width: 50%;
-  margin-left: 90px;
+  width: 100%;
 }
 .header__left--head {
   font-size: 36px;
   font-family: "PT Serif", serif;
   font-weight: 700;
   letter-spacing: -0.045em;
+  margin: 30px 0;
 }
 .header__right {
-  width: 50%;
+  width: 100%;
   font-family: Poppins, sans-serif;
   line-height: 27px;
-  margin-right: 90px;
+  width: 100%;
+  margin: 30px 0px;
 }
 .header__right--head {
   font-weight: 600;
   text-transform: uppercase;
+  font-size: 18px;
 }
 .header__right--para {
   font-size: 14px;
   font-weight: 400;
   text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    display: block;
+  }
+  .header__left {
+    margin: 70px 0 30px;
+  }
+  .header__right {
+    width: 100%;
+    margin: 70px 0 30px;
+  }
+  .header__right--head {
+    font-size: 18px;
+  }
 }
