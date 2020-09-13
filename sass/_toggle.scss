@@ -1,9 +1,8 @@
 .toggle {
     position: absolute;
-    z-index: 2;
-    top: 10px;
-    left: 10px;
-    padding: 10px;
+    // z-index: 2;
+    top: 100px;
+    left: 100px;
     [type="checkbox"]:not(:checked),
     [type="checkbox"]:checked {
         position: absolute;
@@ -30,8 +29,8 @@
         left: 0;
         top: 0;
         width: 3em;
-        border: 2px solid #dddddd;
-        background: #dddddd;
+        border: 2px solid #dddddd !important;
+        background: #dddddd !important;
         border-radius: 1.1em;
         z-index: -1;
     }
@@ -39,7 +38,7 @@
     [type="checkbox"]:checked+label:after {
         left: 0.15em;
         top: 0.125em;
-        background-color: #fff;
+        background-color: #fff !important;
         border-radius: 50%;
         width: 1.5em;
     }
@@ -47,7 +46,7 @@
         left: 1.65em;
     }
     [type="checkbox"]:checked+label:before {
-        background-color: #72da67;
-        border-color: #72da67;
+        background-color: #72da67 !important;
+        border-color: #72da67 !important;
     }
 }
