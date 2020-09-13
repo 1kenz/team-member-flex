@@ -2,10 +2,11 @@
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+    // background-color: $primaryColor;
+    // color: $secondaryColor;
     &__left {
         width: 50%;
         margin-left: 90px;
-        color: #000;
         &--head {
             font-size: 36px;
             font-family: "PT Serif", serif;
@@ -18,8 +19,6 @@
         font-family: Poppins, sans-serif;
         line-height: 27px;
         margin-right: 90px;
-        // line-height: 48px;
-        color: #000;
         &--head {
             font-weight: 600;
             text-transform: uppercase;

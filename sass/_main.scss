@@ -1,9 +1,16 @@
+html {
+    background-color: $primaryColor;
+    color: $secondaryColor;
+}
+
 .main {
     margin: 50px auto 50px;
     padding: 1px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    // background-color: $primaryColor;
+    // color: $secondaryColor;
     &__container {
         max-width: 90%;
         display: flex;
@@ -49,11 +56,6 @@
 
 .top__marg {
     margin-top: 100px;
-}
-
-.section-dark {
-    background-color: $secondaryColor !important;
-    color: $primaryColor !important;
 }
 
 

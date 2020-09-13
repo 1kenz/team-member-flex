@@ -1,8 +1,8 @@
 .toggle {
     position: absolute;
-    // z-index: 2;
-    top: 100px;
-    left: 100px;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
     [type="checkbox"]:not(:checked),
     [type="checkbox"]:checked {
         position: absolute;
@@ -49,4 +49,9 @@
         background-color: #72da67 !important;
         border-color: #72da67 !important;
     }
+}
+
+.section-dark {
+    background-color: $secondaryColor !important;
+    color: $primaryColor !important;
 }
