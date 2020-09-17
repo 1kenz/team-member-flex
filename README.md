@@ -6,7 +6,7 @@
 <div align="center">
   <h3>
     
-    <a href="https://xkendx.github.io/team-member-flex">
+    <a href="https://xkendx.github.io/team-member-flex/">
       Project
     </a>
  
