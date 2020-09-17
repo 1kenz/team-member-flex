@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">team-member-grid</h1>
+<h1 align="center">team-member-flex</h1>
 
 
 <div align="center">
