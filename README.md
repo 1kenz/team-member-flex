@@ -1,14 +1,14 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">team-member-flex</h1>
+<h1 align="center">team-member-grid</h1>
 
 
 <div align="center">
   <h3>
+    <a href="https://xkendx.github.io/team-member-flex">
       Project
-    <a href="https://xkendx.github.io/team-member-flex/">
     </a>
- 
+   
   </h3>
 </div>
 
